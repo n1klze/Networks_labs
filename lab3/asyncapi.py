@@ -81,7 +81,7 @@ class Main:
                 ", {}".format(county) if (county := address.get("county")) else "",
                 ", {}".format(city) if (city := address.get("city")) else "",
                 ", {}".format(town) if (town := address.get("town")) else "",
-                ", {}".format(state_destrict)
+                ", {}".format(state_district)
                 if (state_district := address.get("state_district"))
                 else "",
                 ", {}".format(suburb) if (suburb := address.get("suburb")) else "",
